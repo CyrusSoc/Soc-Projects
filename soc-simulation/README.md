@@ -33,6 +33,7 @@ Optional checks:
 logger "Test log from RaspberryPi"
 tail -n 50 /var/log/syslog
 ```
+![Checking logs](Screenshots/Checking%20logs.png)
 
 ---
 
