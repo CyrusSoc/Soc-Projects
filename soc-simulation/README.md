@@ -23,6 +23,7 @@ Edit `/etc/rsyslog.conf` on Raspberry Pi and add (replace the IP):
 ```conf
 *.*   @<ubuntu-splunk-ip>:1514
 ```
+![etc-rsyslog port 1234 configuration](Screenshots/etc-rsyslog%20port%201234%20configuration.png)
 Restart rsyslog:
 ```bash
 sudo systemctl restart rsyslog
