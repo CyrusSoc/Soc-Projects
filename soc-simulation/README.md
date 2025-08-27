@@ -21,7 +21,7 @@ Kali (Attacker)  --->  Raspberry Pi (Victim + rsyslog)  --->  Ubuntu Splunk (SIE
 ## 🚀 Step 1: Configure Raspberry Pi (rsyslog → Splunk)
 Edit `/etc/rsyslog.conf` on Raspberry Pi and add (replace the IP):
 ```conf
-*.*   @<ubuntu-splunk-ip>:1514
+*.*   @<ubuntu-splunk-ip>:1234
 ```
 ![etc-rsyslog port 1234 configuration](Screenshots/etc-rsyslog%20port%201234%20configuration.png)
 Restart rsyslog:
