@@ -81,9 +81,8 @@ index=* sourcetype=syslog host=<raspberry-hostname>
 ### 4.2 SSH Brute Force Detection
 ```spl
 index=* sourcetype=syslog host=<raspberry-hostname> "Failed password"
-| stats count by src, user
-| where count > 5
 ```
+![SSH Detection.png](Screenshots/SSH%20Detection.png)
 
 ### 4.3 Nmap Port Scan Indicator
 ```spl
