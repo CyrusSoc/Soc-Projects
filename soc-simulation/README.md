@@ -43,6 +43,7 @@ From the Ubuntu Splunk server:
 sudo /opt/splunk/bin/splunk add udp 1514 -sourcetype syslog
 sudo /opt/splunk/bin/splunk restart
 ```
+![In splunk, 1234 port configuration](/Screenshots/In%20splunk,%201234%20port%20configuration.png)
 Now Splunk will index incoming syslog over UDP 1514.
 
 ---
@@ -53,12 +54,12 @@ Now Splunk will index incoming syslog over UDP 1514.
 ```bash
 hydra -l pi -P /usr/share/wordlists/rockyou.txt ssh://<raspberry-ip>
 ```
-
+![kali ssh brute force .png](/Screenshots/kali%20ssh%20brute%20force%20.png)
 ### 3.2 Port Scan
 ```bash
 nmap -A <raspberry-ip>
 ```
-
+![kali nmap.png](/Screenshots/kali%20nmap.png)
 ### 3.3 Simple Failed SSH Login
 ```bash
 ssh wronguser@<raspberry-ip>
