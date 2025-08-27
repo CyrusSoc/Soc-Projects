@@ -77,6 +77,7 @@ These actions generate events in Raspberry’s system logs.
 ```spl
 index=* sourcetype=syslog host=<raspberry-hostname>
 ```
+![all raspberry logs](Screenshots/all%20raspberry%20logs.png)
 
 ### 4.2 SSH Brute Force Detection
 ```spl
