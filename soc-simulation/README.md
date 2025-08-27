@@ -45,7 +45,8 @@ sudo /opt/splunk/bin/splunk restart
 ```
 ![In splunk, 1234 port configuration](Screenshots/In%20splunk,%201234%20port%20configuration.png)
 
-Now Splunk will index incoming syslog over UDP 1514.
+Now Splunk will index incoming syslog over UDP 1234.
+
 ---
 ## ⚔️ Step 3: Generate Security Events (Kali → Raspberry Pi)
 
