@@ -97,12 +97,6 @@ index=* sourcetype=syslog host=<raspberry-hostname> "nmap"
 
 ---
 
-## 📸 Tips for README Screenshots
-- Add Splunk search screenshots (results for brute force and port scan).
-- Add terminal screenshots from Kali (hydra/nmap) and Raspberry (`/var/log/auth.log`).
-
----
-
 ## ✅ Outcome
 - End-to-end log pipeline (Raspberry → Splunk) working
 - Realistic adversary simulation (Kali)
