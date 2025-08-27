@@ -89,6 +89,7 @@ index=* sourcetype=syslog host=<raspberry-hostname> "Failed password"
 index=* sourcetype=syslog host=<raspberry-hostname> "nmap"
 | stats count by src
 ```
+![Nmap Detection.png](Screenshots/Nmap%20Detection.png)
 
 ---
 
