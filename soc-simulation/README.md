@@ -43,8 +43,9 @@ From the Ubuntu Splunk server:
 sudo /opt/splunk/bin/splunk add udp 1514 -sourcetype syslog
 sudo /opt/splunk/bin/splunk restart
 ```
-Now Splunk will index incoming syslog over UDP 1514.
 ![In splunk, 1234 port configuration](/Screenshots/In%20splunk,%201234%20port%20configuration.png)
+
+Now Splunk will index incoming syslog over UDP 1514.
 
 ---
 
