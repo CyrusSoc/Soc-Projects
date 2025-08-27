@@ -64,6 +64,8 @@ nmap -A <raspberry-ip>
 ```bash
 ssh wronguser@<raspberry-ip>
 ```
+Screenshots
+![kali wronguser (sample).png](/kali%20wronguser%20(sample).png)
 
 These actions generate events in Raspberry’s system logs.
 
