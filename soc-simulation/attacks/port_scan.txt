@@ -1,0 +1,8 @@
+
+# Run from Kali Linux to Raspberry Pi
+
+# Aggressive Nmap scan with service/version detection
+nmap -A <raspberry-ip>
+
+# Example:
+# nmap -A 192.168.1.55

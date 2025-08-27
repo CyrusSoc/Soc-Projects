@@ -1,0 +1,7 @@
+
+# Detect potential nmap/port scanning toward Raspberry Pi
+# Replace <raspberry-hostname> with your actual hostname seen in Splunk
+
+index=* sourcetype=syslog host=<raspberry-hostname> "nmap"
+| stats count by src
+| sort - count

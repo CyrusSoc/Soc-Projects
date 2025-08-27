@@ -1,0 +1,8 @@
+
+# Detect SSH brute force attempts hitting Raspberry Pi
+# Replace <raspberry-hostname> with your actual hostname seen in Splunk
+
+index=* sourcetype=syslog host=<raspberry-hostname> "Failed password"
+| stats count values(user) as users by src
+| where count > 5
+| sort - count
