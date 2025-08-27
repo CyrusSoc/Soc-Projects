@@ -1,2 +1,2 @@
 Soc Simulation
-![Collecting Logs](Images/collecting_logs.png)
+![Collecting Logs](/Images/collecting%20logs.png)
