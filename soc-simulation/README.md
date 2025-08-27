@@ -35,6 +35,8 @@ tail -n 50 /var/log/syslog
 ```
 ![Checking logs](Screenshots/Checking%20logs.png)
 
+![raspberry_rsyslog.conf](configs/raspberry_rsyslog.conf)
+
 ---
 
 ## 🛠 Step 2: Configure Splunk (Ubuntu) to Receive Syslog
