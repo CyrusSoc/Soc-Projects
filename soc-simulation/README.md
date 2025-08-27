@@ -87,7 +87,6 @@ index=* sourcetype=syslog host=<raspberry-hostname> "Failed password"
 ### 4.3 Nmap Port Scan Indicator
 ```spl
 index=* sourcetype=syslog host=<raspberry-hostname> "nmap"
-| stats count by src
 ```
 ![Nmap Detection.png](Screenshots/Nmap%20Detection.png)
 
