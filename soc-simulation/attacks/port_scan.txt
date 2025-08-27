@@ -5,4 +5,4 @@
 nmap -A <raspberry-ip>
 
 # Example:
-# nmap -A 192.168.1.55
+# nmap -A 192.168.132.72
