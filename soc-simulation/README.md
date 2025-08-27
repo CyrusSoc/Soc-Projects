@@ -57,11 +57,15 @@ Now Splunk will index incoming syslog over UDP 1234.
 hydra -l pi -P /usr/share/wordlists/rockyou.txt ssh://<raspberry-ip>
 ```
 ![kali ssh brute force .png](Screenshots/kali%20ssh%20brute%20force%20.png)
+![ssh_bruteforce.txt](attacks/ssh_bruteforce.txt)
+
 ### 3.2 Port Scan
 ```bash
 nmap -A <raspberry-ip>
 ```
 ![kali nmap.png](Screenshots/kali%20nmap.png)
+![port_scan.txt](attacks/port_scan.txt)
+
 ### 3.3 Simple Failed SSH Login
 ```bash
 ssh wronguser@<raspberry-ip>
@@ -86,12 +90,14 @@ index=* sourcetype=syslog host=<raspberry-hostname>
 index=* sourcetype=syslog host=<raspberry-hostname> "Failed password"
 ```
 ![SSH Detection.png](Screenshots/SSH%20Detection.png)
+![brute_force_detection.spl](splunk_queries/brute_force_detection.spl)
 
 ### 4.3 Nmap Port Scan Indicator
 ```spl
 index=* sourcetype=syslog host=<raspberry-hostname> "nmap"
 ```
 ![Nmap Detection.png](Screenshots/Nmap%20Detection.png)
+![port_scan_detection.spl](splunk_queries/port_scan_detection.spl)
 
 ---
 
