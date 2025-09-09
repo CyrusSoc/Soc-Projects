@@ -1,4 +1,4 @@
-# Hash Checker Project (SOC Use Case)
+# Malicious Hash Detector
 
 ## Overview
 This project simulates a **basic malware detection system** using file integrity verification.  
@@ -8,7 +8,6 @@ It checks file hashes (MD5, SHA1, SHA256) against a list of **known malicious ha
 - Supports **MD5, SHA1, and SHA256** hashing
 - Compares file hash against a malicious hash database
 - Alerts if file is malicious, otherwise reports safe
-- Lightweight and beginner-friendly project for SOC roles
 
 ## Project Files
 - `bad-hashes.txt` → Contains hashes of malicious files
