@@ -1,4 +1,4 @@
-# hash_checker_multi.py
+#!/usr/bin/env python3
 import hashlib
 
 # Load known bad hashes
@@ -19,12 +19,12 @@ print(f"MD5:    {md5}")
 print(f"SHA1:   {sha1}")
 print(f"SHA256: {sha256}")
 
-# Check against bad list
+# Check against bad list and show which hash matched
 if md5 in bad_hashes:
     print("[!] ALERT: Malicious file detected! (MD5 match)")
-elif sha1 in bad_hashes:
+if sha1 in bad_hashes:
     print("[!] ALERT: Malicious file detected! (SHA1 match)")
-elif sha256 in bad_hashes:
+if sha256 in bad_hashes:
     print("[!] ALERT: Malicious file detected! (SHA256 match)")
 else:
     print("[+] File is clean")
