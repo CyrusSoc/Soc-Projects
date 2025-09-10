@@ -28,7 +28,7 @@ echo "Cybersecurity" > file1.txt && echo "is not" > file2.txt && echo "just my" 
 echo "Hey" > file7.txt && echo "I'm Good" > file8.txt
  ```
 ![2-creating good filees.png](Screenshots/2-creating%20good%20filees.png)
-![safe-files](File%20Integrity%20Monitor/safe-files)
+- [safe-files](./safe-files/) → Contains 2 sample text files
 
 ## Generating Hashes
  1. MD5,SHA1,SHA256
