@@ -80,7 +80,7 @@ if sha256 in bad_hashes:
 else:
     print("[+] File is clean")
    ```
-- [hash-checker.txt](./hash-checker.txt) → Contains python script
+- [hash-checker.py](./hash-checker.py) → Contains python script
 
 2. Executing permission
  ```bash
