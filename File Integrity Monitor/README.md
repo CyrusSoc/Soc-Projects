@@ -41,8 +41,10 @@ sha1sum *.txt
 ```bash
 sha256sum *.txt 
 ```
+![bad hashes.png](File%20Integrity%20Monitor/bad-hashes.txt)
 
 2. Creating bad-hashes.txt file
+![3 bad hashes.png](Screenshots/3%20bad%20hashes.png)
 
 ## Python Scripting
 1. Creating hash-checker.py
@@ -78,6 +80,8 @@ if sha256 in bad_hashes:
 else:
     print("[+] File is clean")
    ```
+![hash-checker.py](File%20Integrity%20Monitor/hash-checker.py)
+
 2. Executing permission
  ```bash
 chmod -x hah-checker.py
