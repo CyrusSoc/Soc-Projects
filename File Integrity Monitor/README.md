@@ -75,13 +75,13 @@ else:
    ```
 2. Executing permission
  ```bash
-   chmod -x hah-checker.py
-   ```
+chmod -x hah-checker.py
+ ```
 
 3. Run
  ```bash
- ./hash-checker.py
-  ```
+./hash-checker.py
+ ```
 ## Checking Integrity
 1. Checking file1.txt
  ```bash
