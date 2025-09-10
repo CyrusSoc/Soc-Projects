@@ -21,7 +21,7 @@ It checks file hashes (MD5, SHA1, SHA256) against a list of **known malicious ha
 echo "Cybersecurity" > file1.txt && echo "is not" > file2.txt && echo "just my" > file3.txt && echo "skill," > file4.txt && echo "it is" > file5.txt && echo "my passion" > file6.txt
  ```
 ![1-creating files.png](Screenshots/1-creating%20files.png)
-![Browse malicious-files](/malicious-files)
+- [malicious-files](./malicious-files/) → Contains 6 sample malicious text files
 
 2. Safe files
 ```bash
