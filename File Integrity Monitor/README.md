@@ -20,11 +20,16 @@ It checks file hashes (MD5, SHA1, SHA256) against a list of **known malicious ha
 ```bash
 echo "Cybersecurity" > file1.txt && echo "is not" > file2.txt && echo "just my" > file3.txt && echo "skill," > file4.txt && echo "it is" > file5.txt && echo "my passion" > file6.txt
  ```
+![1-creating files.png](Screenshots/1-creating%20files.png)
+![malicious-files](File%20Integrity%20Monitor/malicious-files)
 
 2. Safe files
 ```bash
 echo "Hey" > file7.txt && echo "I'm Good" > file8.txt
  ```
+![2-creating good filees.png](Screenshots/2-creating%20good%20filees.png)
+![safe-files](File%20Integrity%20Monitor/safe-files)
+
 ## Generating Hashes
  1. MD5,SHA1,SHA256
 ```bash
