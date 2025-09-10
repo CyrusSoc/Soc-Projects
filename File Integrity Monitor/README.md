@@ -41,7 +41,7 @@ sha1sum *.txt
 ```bash
 sha256sum *.txt 
 ```
-![bad-hashes.txt](File%20Integrity%20Monitor/bad-hashes.txt)
+- [bad-hashes.txt](./bad-hashes.txt) → Contains known malicious hashes
 
 2. Creating bad-hashes.txt file
 ![3 bad hashes.png](Screenshots/3%20bad%20hashes.png)
