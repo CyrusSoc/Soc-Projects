@@ -108,4 +108,6 @@ Enter file path: file1.txt
   ```bash
 Enter file path: file8.txt
   ```
+![6-file8.png](Screenshots/6-file8.png)
+I didn't added file8.txt hash to bad-hashes.txt file. that's why this file is good
 
