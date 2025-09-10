@@ -79,9 +79,9 @@ else:
    ```
 
 3. Run
-    ```bash
-    ./hash-checker.py
-   ```
+ ```bash
+ ./hash-checker.py
+  ```
 ## Checking Integrity
 1. Checking file1.txt
 
