@@ -16,14 +16,14 @@ It checks file hashes (MD5, SHA1, SHA256) against a list of **known malicious ha
 - `hash_checker_multi.py` → Main script to check file hashes
 
 ## Creating some files
-1. Malicious Files
+### 1. Malicious Files
 ```bash
 echo "Cybersecurity" > file1.txt && echo "is not" > file2.txt && echo "just my" > file3.txt && echo "skill," > file4.txt && echo "it is" > file5.txt && echo "my passion" > file6.txt
  ```
 ![1-creating files.png](Screenshots/1-creating%20files.png)
 - [malicious-files](./malicious-files/) → Contains 6 sample malicious text files
 
-2. Safe files
+### 2. Safe files
 ```bash
 echo "Hey" > file7.txt && echo "I'm Good" > file8.txt
  ```
@@ -31,7 +31,7 @@ echo "Hey" > file7.txt && echo "I'm Good" > file8.txt
 - [safe-files](./safe-files/) → Contains 2 sample text files
 
 ## Generating Hashes
- 1. MD5,SHA1,SHA256
+### 1. MD5,SHA1,SHA256
 ```bash
 md5sum *.txt
 ```
@@ -43,11 +43,11 @@ sha256sum *.txt
 ```
 - [bad-hashes.txt](./bad-hashes.txt) → Contains known malicious hashes
 
-2. Creating bad-hashes.txt file
+### 2. Creating bad-hashes.txt file
 ![3-bad hashes.png](Screenshots/3-bad%20hashes.png)
 
 ## Python Scripting
-1. Creating hash-checker.py
+### 1. Creating hash-checker.py
  ```bash
 #!/usr/bin/env python3
 import hashlib
@@ -82,29 +82,29 @@ else:
    ```
 - [hash-checker.py](./hash-checker.py) → Contains python script
 
-2. Executing permission
+### 2. Executing permission
  ```bash
 chmod -x hah-checker.py
  ```
 
-3. Run
+### 3. Run
  ```bash
 ./hash-checker.py
  ```
 ## Checking Integrity
-1. Checking file1.txt
+### 1. Checking file1.txt
  ```bash
 Enter file path: file1.txt
  ```
 ![4-file1.png](Screenshots/4-file1.png)
 
-2. Again Checking file1.txt (Removed SHA1 from bad-hashes.txt)
+### 2. Again Checking file1.txt (Removed SHA1 from bad-hashes.txt)
   ```bash
 Enter file path: file1.txt
   ```
 ![5-file1.1.png](Screenshots/5-file1.1.png)
 
- 3. Checking Good File
+### 3. Checking Good File
   ```bash
 Enter file path: file8.txt
   ```
