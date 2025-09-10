@@ -109,5 +109,15 @@ Enter file path: file1.txt
 Enter file path: file8.txt
   ```
 ![6-file8.png](Screenshots/6-file8.png)
-I didn't added file8.txt hash to bad-hashes.txt file. that's why this file is good
+I didn't added file8.txt hash to bad-hashes.txt file.
+
+## 🚀 Future Improvements
+- Add support for more hash algorithms (e.g., Blake2, SHA3)
+- Create a GUI version for easier use
+- Integrate VirusTotal API for live malware hash lookups
+
+## 🙏 Acknowledgments
+- Inspired by real SOC workflows  
+- Built as part of my cybersecurity learning journey
+
 
