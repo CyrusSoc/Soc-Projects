@@ -96,11 +96,13 @@ chmod -x hah-checker.py
  ```bash
 Enter file path: file1.txt
  ```
+![4-file1.png](Screenshots/4-file1.png)
 
 2. Again Checking file1.txt (Removed SHA1 from bad-hashes.txt)
   ```bash
 Enter file path: file1.txt
   ```
+![5-file1.1.png](Screenshots/5-file1.1.png)
 
  3. Checking Good File
   ```bash
