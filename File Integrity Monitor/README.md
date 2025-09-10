@@ -29,7 +29,11 @@ It checks file hashes (MD5, SHA1, SHA256) against a list of **known malicious ha
  1. MD5,SHA1,SHA256
   ```bash
    md5sum *.txt
+  ```
+ ```bash
    sha1sum *.txt
+  ```
+ ```bash
    sha256sum *.txt 
    ```
 
