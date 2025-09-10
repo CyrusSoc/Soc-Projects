@@ -17,25 +17,25 @@ It checks file hashes (MD5, SHA1, SHA256) against a list of **known malicious ha
 
 ## Creating some files
 1. Malicious Files
-   ```bash
-    echo "Cybersecurity" > file1.txt && echo "is not" > file2.txt && echo "just my" > file3.txt && echo "skill," > file4.txt && echo "it is" > file5.txt && echo "my passion" > file6.txt
-   ```
+```bash
+echo "Cybersecurity" > file1.txt && echo "is not" > file2.txt && echo "just my" > file3.txt && echo "skill," > file4.txt && echo "it is" > file5.txt && echo "my passion" > file6.txt
+ ```
 
 2. Safe files
-    ```bash
-    echo "Hey" > file7.txt && echo "I'm Good" > file8.txt
-    ```
+```bash
+echo "Hey" > file7.txt && echo "I'm Good" > file8.txt
+ ```
 ## Generating Hashes
  1. MD5,SHA1,SHA256
-  ```bash
+```bash
    md5sum *.txt
-  ```
- ```bash
+```
+```bash
    sha1sum *.txt
-  ```
- ```bash
+```
+```bash
    sha256sum *.txt 
-   ```
+```
 
 2. Creating bad-hashes.txt file
 
