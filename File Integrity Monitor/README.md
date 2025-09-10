@@ -28,13 +28,13 @@ echo "Hey" > file7.txt && echo "I'm Good" > file8.txt
 ## Generating Hashes
  1. MD5,SHA1,SHA256
 ```bash
-   md5sum *.txt
+md5sum *.txt
 ```
 ```bash
-   sha1sum *.txt
+sha1sum *.txt
 ```
 ```bash
-   sha256sum *.txt 
+sha256sum *.txt 
 ```
 
 2. Creating bad-hashes.txt file
@@ -84,16 +84,17 @@ else:
   ```
 ## Checking Integrity
 1. Checking file1.txt
+ ```bash
+Enter file path: file1.txt
+ ```
 
-2. Checking 
-   MD5:    <hash>
-   SHA1:   <hash>
-   SHA256: <hash>
+2. Again Checking file1.txt (Removed SHA1 from bad-hashes.txt)
+  ```bash
+Enter file path: file1.txt
+  ```
 
-   [!] ALERT: Malicious file detected! (SHA1 match)
-   ```
+ 3. Checking Good File
+  ```bash
+Enter file path: file8.txt
+  ```
 
-## SOC Relevance
-- Demonstrates knowledge of **file integrity monitoring (FIM)**
-- Basic understanding of how SOC teams detect **Indicators of Compromise (IOCs)**
-- Practice with **hashing algorithms** in Python
