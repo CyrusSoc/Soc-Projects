@@ -44,7 +44,7 @@ sha256sum *.txt
 - [bad-hashes.txt](./bad-hashes.txt) → Contains known malicious hashes
 
 2. Creating bad-hashes.txt file
-![3 bad hashes.png](Screenshots/3%20bad%20hashes.png)
+![3-bad hashes.png](Screenshots/3-bad%20hashes.png)
 
 ## Python Scripting
 1. Creating hash-checker.py
