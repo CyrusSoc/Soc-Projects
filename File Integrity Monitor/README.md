@@ -1,4 +1,4 @@
-# Malicious Hash Detector
+# 🚨MALICIOUS HASH DETECTOR 
 
 ## 📖Overview
 This project simulates a **basic malware detection system** using file integrity verification.  
@@ -15,7 +15,7 @@ It checks file hashes (MD5, SHA1, SHA256) against a list of **known malicious ha
 - `safe-files/` → Contains 2 safe text files
 - `hash-checker.py` → Main script to check file hashes
 
-## 📝Creating some files
+## 📝Creating Some Files
   ### 1. Malicious Files
   ```bash
     echo "Cybersecurity" > file1.txt && echo "is not" > file2.txt && echo "just my" > file3.txt && echo "skill," > file4.txt && echo "it is" >     file5.txt && echo "my passion" > file6.txt
@@ -23,7 +23,7 @@ It checks file hashes (MD5, SHA1, SHA256) against a list of **known malicious ha
 ![1-creating files.png](Screenshots/1-creating%20files.png)
 - [malicious-files](./malicious-files/) → Contains 6 sample malicious text files
 
-### 2. Safe files
+### 2. Safe Files
 ```bash
 echo "Hey" > file7.txt && echo "I'm Good" > file8.txt
  ```
@@ -43,7 +43,7 @@ sha256sum *.txt
 ```
 - [bad-hashes.txt](./bad-hashes.txt) → Contains known malicious hashes
 
-### 2. Creating bad-hashes.txt file
+### 2. Creating bad-hashes.txt File
 ![3-bad hashes.png](Screenshots/3-bad%20hashes.png)
 
 ## 🐍Python Scripting
@@ -82,7 +82,7 @@ else:
    ```
 - [hash-checker.py](./hash-checker.py) → Contains python script
 
-### 2. Executing permission
+### 2. Executing Permission
  ```bash
 chmod -x hah-checker.py
  ```
@@ -98,7 +98,7 @@ Enter file path: file1.txt
  ```
 ![4-file1.png](Screenshots/4-file1.png)
 
-### 2. Again Checking file1.txt (Removed SHA1 from bad-hashes.txt)
+### 2. Again Checking file1.txt (Removed SHA1 From bad-hashes.txt)
   ```bash
 Enter file path: file1.txt
   ```
